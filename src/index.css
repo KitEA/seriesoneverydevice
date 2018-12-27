@@ -1,14 +1,37 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #8498D0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.container {
+    background-color: #FEFEFE;
+    margin-top: 200px;
+    padding: 20px;
+    height: 100%;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.19), -5px 6px 6px rgba(0,0,0,0.23);
+}
+
+.nameprice {
+    color: #0066CC;
+    margin-bottom: 20px
+}
+
+.currency {
+    vertical-align: super;
+    font-size: 50%
+}
+
+.rate {
+    font-size: 50%
+}
+
+p {
+    color: #808080
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+#dealselect:hover {
+    background-color: #F5F5F5;
 }
